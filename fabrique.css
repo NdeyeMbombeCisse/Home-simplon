@@ -99,14 +99,38 @@ nav ul {
 
 /* La petite histoire */
 .femme{
-    height: auto;
+    height: 280px;
     width: 450px;
+    margin-left:150px ;
+    padding-top: 30px;
 }
 .ouverture p{
   width: 400px;
   line-height: 2;
+  margin-top: -12px;
+  margin-left: 150px;
 
 }
+.histoire{
+    text-align: center;
+    color: #ce0033;
+    font-size: 35px;
+    font-weight:bold ;
+    
+}
+
+.ouv{
+    color: #CE0033;
+    font-size: 25px;
+    font-weight:bold ;
+    padding-top:40px ;
+}
+.cont{
+    display: flex;
+    background-color: hwb(60 96% 3%);
+    
+}
+
 /* styliser la partie pédagogie */
 .titres{
     text-align: center;
