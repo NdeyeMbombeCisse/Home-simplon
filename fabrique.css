@@ -134,10 +134,9 @@ nav ul {
 /* styliser la partie pédagogie */
 .titres{
     text-align: center;
-    color:rgb(212, 40, 75);
-    margin-top:2.7em;
-    font-size: 2.3em;
-    margin-bottom: 1.5em;
+    color: #ce0033;
+    font-size: 35px;
+    font-weight:bold ;
 }
 #pédagogie p{
     width: 28em;
