@@ -5,10 +5,11 @@ body{
 }
 /* mise en page du header */
 #logo-fabrique{
-    height:auto ;
-    width:13% ;
+    height:10% ;
+    width:10% ;
     margin-right: 7%;
     margin-left: 3%;
+    margin-top:1% ;
 }
 header{
     border: hidden;
@@ -39,20 +40,23 @@ nav ul li{
 select{
     margin-right:7%;
     border: hidden;
+    background: none;
 }
-#btn-contact{
-   background-color: crimson;
-   color: white;
-   padding: 6%;
-   border: hidden;
-   border-radius:12px;
-   Cursor:pointer
-}
+
+ #btn-contact{
+    background-color: #CE0033;
+    color: white;
+    padding: 6%;
+    border: hidden;
+    border-radius:12px;
+    Cursor:pointer;
+ }
 nav ul {
     display: flex;
     align-items: center;
 }
 /* styliser la section de la fabrique et des missions */
+
 .gros_titre{
    text-align: center;
    background-image:url("images/arrièreplan.png") ;
@@ -74,15 +78,25 @@ nav ul {
   justify-content: center;
   background-color:#CE0033;
   color:white;
-  opacity:0.9;
+  opacity:0.6;
+  width: 60%;
+  margin-top: -5%;
+  margin-left:20% ;
+  height: 300px;
+}
+.bordure{
+    border-left:solid;
+    padding-left: 80px;
 }
 .missions{
     margin-right: 35px;
     margin-left: 50px;
+    
 }
 .missions h2{
     font-size: 30px;
 }
+
 /* La petite histoire */
 .femme{
     height: auto;
