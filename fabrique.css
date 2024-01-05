@@ -426,7 +426,7 @@ font-size: 1.3em;
 }
 #offre ul{
     width:11%;
-    padding:2%;
+    padding:1%;
     border: solid thin;
     border-radius: 11px;
     border-color: rgb(233, 228, 228);
@@ -434,17 +434,28 @@ font-size: 1.3em;
     box-shadow:5px 5px 5px rgb(223, 221, 221);
     position:absolute;
     left:24%;
-    top:775%
+    margin-top: -200px;
+    margin-left: 150px;
+    padding-top: 12px;
+}
+iconify-icon{
+    margin-right:16px ;
+
+}
+
+.element{
+    margin-bottom: -2000px;
 }
 #offre{
     border: hidden;
     border-radius: 3%;
     background-color: rgb(248, 243, 243);
     margin-top: 1%;
-    padding: 2%;
+    padding: 5%;
     width: 500px;
     margin-right: 90px;
     margin-left:50px ;
+    padding-top: 20px;
 
 }
 .icone{
@@ -492,7 +503,12 @@ textarea{
     border-radius:30px;
     cursor: pointer;
     margin-left: 31%;
+margin-top: 50px;
 }
+.ecriture{
+    margin-left: -280px;
+}
+
 #btn-joindrefichier{
     color:rgb(201, 19, 55);
     border:none;
