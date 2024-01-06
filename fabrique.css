@@ -130,6 +130,59 @@ nav ul {
     background-color: hwb(60 96% 3%);
     
 }
+.petite p{
+    position:relative;
+    margin-left: 480px;
+    margin-top: -250px;
+    background-color: #CE0033;
+    color: white;
+    font-size: 35px;
+    padding-left:3% ;
+    font-weight: bold;
+    border-top-left-radius:25% ;
+}
+.cont ul{
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.cont .marge{
+    margin-top: 300px;
+    margin-left: -700px;
+    color: #CE0033;
+    font-size: 30px;
+    font-weight:bold ;
+
+}
+.cont .marge1{
+    margin-top: 300px;
+    margin-left: 70px;
+    color: #CE0033;
+    font-size: 30px;
+    font-weight:bold ;
+
+}
+.cont .marge2{
+    margin-top: 320px;
+    margin-left: 70px;
+    color: #CE0033;
+    font-size: 2px;
+    font-weight:bold ;
+    border-top-right-radius: 15px;
+    
+}
+.cont button{
+    margin-top: -120px;
+    color: #CE0033;
+    background-color: #CE0033;
+    border: solid;
+    border-radius:30% ;
+    height: 30%;
+    width: 30px;
+    margin-left:-30px ;
+    font-size: 1px;
+}
 
 /* styliser la partie pédagogie */
 .titres{
@@ -208,6 +261,36 @@ nav ul {
     box-shadow:27px -14px white;
     margin-left:-20px ;
 }
+.groupe button{
+    background-color: white;
+    border: solid;
+    border-radius:50% ;
+    width: 30px;
+    margin-left:-30px ;
+    font-size: 1px;
+    color: white;
+    padding:-80px ;
+    margin-top: 15px;
+}
+.groupe ul{
+    position: relative;
+    display: flex;
+    font-size:30px ;
+    margin-top: -80px;
+    margin-left:100px ;
+    
+}
+.groupe li{
+   color: white;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.groupe .marge2{
+    font-size: 0px;
+}
+
+
+
 /* styliser la partie des valeurs */
 #valeur-div h3{
     color: rgb(211, 38, 73);
@@ -259,6 +342,18 @@ nav ul {
     display:flex;
     justify-content: space-evenly;
 }
+#valeur-div li{
+    margin-left: 600px;
+    margin-top: -300px;
+    color: white;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; /* Ajustez la largeur du côté horizontal du triangle */
+    border-bottom: 20px solid #CE0033; /* Ajustez la hauteur du côté vertical du triangle */
+}
+
+
+
 /* styliser la partie chiffre */
 #chiffres{
     display:flex;
@@ -278,6 +373,7 @@ nav ul {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
+
 /* styliser la partie de l'équipe */
 #ngor,#samba,#sane{
  width: 110px;
@@ -298,11 +394,40 @@ nav ul {
     padding:2em;
     box-shadow: 13px 13px 13px 7px rgb(230, 226, 226);
 }
+
 #formateur{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
+    
 }
+
+
+.section-equipe ul{
+    font-size: 30px;
+    color: #CE0033;
+    margin-left: 500px;
+    display: flex;
+    color:#CE0033
+
+
+}
+.section-equipe .ekip{
+   margin-right:40px ; 
+   margin-top: -12px;
+
+}
+.section-equipe .ekipp{
+    border:solid;
+    width: 30px;
+    height:5px ;
+    border-radius: 30px;
+    background-color: #CE0033;
+    font-size: 1px;
+    margin-left: -20px;
+}
+
+
 .profil-formateur h4{
     margin-top:0.6em;
     margin-bottom:0.5em;
@@ -312,6 +437,7 @@ nav ul {
     color:crimson;
     font-size:0.8em
 }
+
 .profil-formateur p{
     margin-top: 2em;
     color:rgb(179, 173, 173);
@@ -322,6 +448,31 @@ nav ul {
     height:auto;
     width:13%;
 }
+.material-symbols-outlined{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: #CE0033;
+    border-left: -12px;
+    margin-left: -20px;
+    top: -200px;
+    border-radius: 50%;
+    border: solid;
+    
+
+}
+.arrow-right{
+    background-color: #CE0033;
+    font-weight: bold;
+    margin-left: 1200px;
+    top: 80%;
+    border-radius: 50%;
+    top:200px ;
+    bottom: -400px;
+    
+    
+}
+
 #fabrique{
     margin-top: 2%;
     margin-bottom: 1%;
