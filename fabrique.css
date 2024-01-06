@@ -190,7 +190,9 @@ nav ul {
     border-bottom-width: 0.5em;
     border-bottom-color: rgb(194, 16, 51);
     box-shadow: 10px 5px 14px rgb(248, 246, 246);
+    margin-left: 10px;
 }
+
 #pliers{
     display:grid;
     grid-template-columns: 400px 400px ;
@@ -203,7 +205,8 @@ nav ul {
     width:400px ;
     height:700px;
     border-radius:14px;
-    box-shadow:27px -14px crimson
+    box-shadow:27px -14px white;
+    margin-left:-20px ;
 }
 /* styliser la partie des valeurs */
 #valeur-div h3{
@@ -458,6 +461,11 @@ iconify-icon{
     padding-top: 20px;
 
 }
+#offre a{
+    margin-left:480px ;
+    color: black;
+    font-size:20px ;
+}
 .icone{
     margin-right: 12%;
     height: auto;
@@ -582,7 +590,7 @@ margin-top: 50px;
    
 }
 .row .col2{
-    max-width: 350px;
+    max-width: 250px;
     height: 100px;
     margin-top: 2%;
     padding: 1%;
