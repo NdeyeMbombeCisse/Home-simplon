@@ -1,6 +1,9 @@
-body{
+html, body{
     font-family: sans-serif;
     overflow-x: hidden;
+    padding: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
     
 }
 /* mise en page du header */
@@ -90,8 +93,10 @@ nav ul {
 }
 .missions{
     margin-right: 35px;
-    margin-left: 50px;
     
+}
+.missions .ttr2{
+    margin-left: 100px;
 }
 .missions h2{
     font-size: 30px;
@@ -455,21 +460,23 @@ nav ul {
     background-color: #CE0033;
     border-left: -12px;
     margin-left: -20px;
-    top: -200px;
+    top: -240px;
     border-radius: 50%;
-    border: solid;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
     
 
 }
 .arrow-right{
+    position: relative;
     background-color: #CE0033;
     font-weight: bold;
     margin-left: 1200px;
-    top: 80%;
-    border-radius: 50%;
-    top:200px ;
-    bottom: -400px;
-    
+    top: -80%;
+    border-radius: 50%; 
+    top: -180px; 
+    padding: 10px; 
     
 }
 
@@ -524,7 +531,26 @@ nav ul {
     display: flex;
 }
 .voyager p{
-    margin-left: 170px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size:12px ;
+
+}
+
+.principal #photo1{
+    position: relative;
+    margin-top: 25px;
+
+}
+.ytb #photo2{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: -200px;
+    margin-left:380px ;
 }
 img{
     margin-left: 170px;
@@ -557,7 +583,7 @@ line-height: 1.6;
     margin-left:10% ;
 }
 #photo-de-groupe{
-    height: auto;
+    height: 250px;
     width:100%;
 }
 #cours{
@@ -707,8 +733,9 @@ margin-top: 50px;
     margin-left: -10px;
 }
 .tell{
-    margin-left: -100px;
+    margin-left: -200px;
 }
+
 .text{
     color: darkgrey;
 }
@@ -863,4 +890,43 @@ aside{
 }
 aside span{
     margin-left: 61%;
+}@media screen and (max-width:1118px) {
+    header ul{
+        font-size:10px;
+        text-align: center;
+
+
+    }
+    
 }
+@media  screen and (max-width:940px) {
+    header img {
+        position: relative;
+        width: 70px;
+        height: 10px;
+        margin-left: 100px;
+    }
+    header li{
+        margin-left: none;
+        margin-right: none;
+    }
+    header{
+        margin-left: 200px;
+        text-align: center;
+        margin-left: 200px;
+    }
+}
+
+    
+@media  screen and (max-width:1142px){
+    .missions{
+        font-size: 3px;
+    }
+
+
+
+}
+
+
+
+
