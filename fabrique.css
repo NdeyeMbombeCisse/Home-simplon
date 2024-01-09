@@ -1,6 +1,9 @@
-body{
+html, body{
     font-family: sans-serif;
     overflow-x: hidden;
+    padding: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
     
 }
 /* mise en page du header */
@@ -90,8 +93,10 @@ nav ul {
 }
 .missions{
     margin-right: 35px;
-    margin-left: 50px;
     
+}
+.missions .ttr2{
+    margin-left: 100px;
 }
 .missions h2{
     font-size: 30px;
@@ -99,12 +104,16 @@ nav ul {
 
 /* La petite histoire */
 .femme{
-    height: auto;
+    height: 280px;
     width: 450px;
+    margin-left:150px ;
+    padding-top: 30px;
 }
 .ouverture p{
   width: 400px;
   line-height: 2;
+  margin-top: -12px;
+  margin-left: 150px;
 
 }
 .histoire{
@@ -119,20 +128,81 @@ nav ul {
     color: #CE0033;
     font-size: 25px;
     font-weight:bold ;
+<<<<<<< HEAD
 }
 .cont{
     background-color: #e9e9dc;
     width:100% ;
     height: 110%;
+=======
+    padding-top:40px ;
+}
+.cont{
+    display: flex;
+    background-color: hwb(60 96% 3%);
+    
+}
+.petite p{
+    position:relative;
+    margin-left: 480px;
+    margin-top: -250px;
+    background-color: #CE0033;
+    color: white;
+    font-size: 35px;
+    padding-left:3% ;
+    font-weight: bold;
+    border-top-left-radius:25% ;
+}
+.cont ul{
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.cont .marge{
+    margin-top: 300px;
+    margin-left: -700px;
+    color: #CE0033;
+    font-size: 30px;
+    font-weight:bold ;
+
+}
+.cont .marge1{
+    margin-top: 300px;
+    margin-left: 70px;
+    color: #CE0033;
+    font-size: 30px;
+    font-weight:bold ;
+
+}
+.cont .marge2{
+    margin-top: 320px;
+    margin-left: 70px;
+    color: #CE0033;
+    font-size: 2px;
+    font-weight:bold ;
+    border-top-right-radius: 15px;
+    
+}
+.cont button{
+    margin-top: -120px;
+    color: #CE0033;
+    background-color: #CE0033;
+    border: solid;
+    border-radius:30% ;
+    height: 30%;
+    width: 30px;
+    margin-left:-30px ;
+    font-size: 1px;
+>>>>>>> 1323c9ed7de4e32c564c30a669c95e9a0a3f8f82
 }
 
 /* styliser la partie pédagogie */
 .titres{
     text-align: center;
-    color:rgb(212, 40, 75);
-    margin-top:2.7em;
-    font-size: 2.3em;
-    margin-bottom: 1.5em;
+    color: #ce0033;
+    font-size: 35px;
+    font-weight:bold ;
 }
 #pédagogie p{
     width: 28em;
@@ -145,10 +215,16 @@ nav ul {
     justify-content: space-evenly;
     align-content: center;
 }
+.part{
+    margin-left:30px ;
+}
 #pédagogie h3{
     color: rgb(204, 31, 65);
     margin-bottom: 0.6em;
     font-size: 1.6em;
+}
+.youtube{
+    padding-top:40px ;
 }
 /* styliser la partie des 6 pliers */
 #plier-pédagogie{
@@ -180,7 +256,9 @@ nav ul {
     border-bottom-width: 0.5em;
     border-bottom-color: rgb(194, 16, 51);
     box-shadow: 10px 5px 14px rgb(248, 246, 246);
+    margin-left: 10px;
 }
+
 #pliers{
     display:grid;
     grid-template-columns: 400px 400px ;
@@ -193,8 +271,39 @@ nav ul {
     width:400px ;
     height:700px;
     border-radius:14px;
-    box-shadow:27px -14px crimson
+    box-shadow:27px -14px white;
+    margin-left:-20px ;
 }
+.groupe button{
+    background-color: white;
+    border: solid;
+    border-radius:50% ;
+    width: 30px;
+    margin-left:-30px ;
+    font-size: 1px;
+    color: white;
+    padding:-80px ;
+    margin-top: 15px;
+}
+.groupe ul{
+    position: relative;
+    display: flex;
+    font-size:30px ;
+    margin-top: -80px;
+    margin-left:100px ;
+    
+}
+.groupe li{
+   color: white;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.groupe .marge2{
+    font-size: 0px;
+}
+
+
+
 /* styliser la partie des valeurs */
 #valeur-div h3{
     color: rgb(211, 38, 73);
@@ -246,6 +355,18 @@ nav ul {
     display:flex;
     justify-content: space-evenly;
 }
+#valeur-div li{
+    margin-left: 600px;
+    margin-top: -300px;
+    color: white;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; /* Ajustez la largeur du côté horizontal du triangle */
+    border-bottom: 20px solid #CE0033; /* Ajustez la hauteur du côté vertical du triangle */
+}
+
+
+
 /* styliser la partie chiffre */
 #chiffres{
     display:flex;
@@ -265,6 +386,7 @@ nav ul {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
+
 /* styliser la partie de l'équipe */
 #ngor,#samba,#sane{
  width: 110px;
@@ -285,11 +407,40 @@ nav ul {
     padding:2em;
     box-shadow: 13px 13px 13px 7px rgb(230, 226, 226);
 }
+
 #formateur{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
+    
 }
+
+
+.section-equipe ul{
+    font-size: 30px;
+    color: #CE0033;
+    margin-left: 500px;
+    display: flex;
+    color:#CE0033
+
+
+}
+.section-equipe .ekip{
+   margin-right:40px ; 
+   margin-top: -12px;
+
+}
+.section-equipe .ekipp{
+    border:solid;
+    width: 30px;
+    height:5px ;
+    border-radius: 30px;
+    background-color: #CE0033;
+    font-size: 1px;
+    margin-left: -20px;
+}
+
+
 .profil-formateur h4{
     margin-top:0.6em;
     margin-bottom:0.5em;
@@ -299,6 +450,7 @@ nav ul {
     color:crimson;
     font-size:0.8em
 }
+
 .profil-formateur p{
     margin-top: 2em;
     color:rgb(179, 173, 173);
@@ -309,6 +461,117 @@ nav ul {
     height:auto;
     width:13%;
 }
+.material-symbols-outlined{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: #CE0033;
+    border-left: -12px;
+    margin-left: -20px;
+    top: -240px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    
+
+}
+.arrow-right{
+    position: relative;
+    background-color: #CE0033;
+    font-weight: bold;
+    margin-left: 1200px;
+    top: -80%;
+    border-radius: 50%; 
+    top: -180px; 
+    padding: 10px; 
+    
+}
+
+#fabrique{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.container {
+    margin: auto;
+    padding: 2%;
+    
+}
+
+#fabrique .row{
+    max-width: 100%;
+    
+    display: flex;
+   
+}
+.row .col1{
+    max-width: 28%;
+    padding: 2%;
+    margin-left: 3%;
+    
+}
+#fabrique .titre4{
+    color: #ce0033;
+    text-align: center;
+    font-weight: bold;
+    margin: 2%;
+}
+.col1 h3{
+    
+    margin-top: 0%;
+    color: black;
+}
+.col1 p{
+   
+    margin-top: -4%;
+    color: rgb(22, 21, 21);
+}
+.col1 img{
+    width: 100%;
+    margin-left:-10px;
+
+
+}
+.principal{
+    width: 100%;
+    height: 70%;
+    background: hsl(0, 7%, 91%);
+    display: flex;
+}
+.voyager p{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size:12px ;
+
+}
+
+.principal #photo1{
+    position: relative;
+    margin-top: 25px;
+
+}
+.ytb #photo2{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: -200px;
+    margin-left:380px ;
+}
+img{
+    margin-left: 170px;
+}
+.titre{
+    font-weight: bold;
+    font-size:25px ;
+    color: #ce0033;
+}
+.sekou{
+    font-weight: bold;
+}
+
 /* styliser la partie recrutement */
 #groupe-simplon h3{
  color:rgb(206, 16, 54);
@@ -322,9 +585,13 @@ line-height: 1.6;
     display:grid;
     grid-template-columns: 600px 600px;
     gap:10%;
+
+}
+#groupe-simplon img{
+    margin-left:10% ;
 }
 #photo-de-groupe{
-    height: auto;
+    height: 250px;
     width:100%;
 }
 #cours{
@@ -347,7 +614,7 @@ font-size: 1.3em;
 }
 #offre ul{
     width:11%;
-    padding:2%;
+    padding:1%;
     border: solid thin;
     border-radius: 11px;
     border-color: rgb(233, 228, 228);
@@ -355,19 +622,42 @@ font-size: 1.3em;
     box-shadow:5px 5px 5px rgb(223, 221, 221);
     position:absolute;
     left:24%;
-    top:775%
+    margin-top: -200px;
+    margin-left: 150px;
+    padding-top: 12px;
+}
+iconify-icon{
+    margin-right:16px ;
+
+}
+
+.element{
+    margin-bottom: -2000px;
 }
 #offre{
     border: hidden;
     border-radius: 3%;
     background-color: rgb(248, 243, 243);
     margin-top: 1%;
-    padding: 2%;
+    padding: 5%;
+    width: 500px;
+    margin-right: 90px;
+    margin-left:50px ;
+    padding-top: 20px;
+
+}
+#offre a{
+    margin-left:480px ;
+    color: black;
+    font-size:20px ;
 }
 .icone{
     margin-right: 12%;
     height: auto;
     width: 1.3em;
+}
+#rejoindre{
+    margin-left: 30px;
 }
 #input{
     padding: 3%;
@@ -406,7 +696,12 @@ textarea{
     border-radius:30px;
     cursor: pointer;
     margin-left: 31%;
+margin-top: 50px;
 }
+.ecriture{
+    margin-left: -280px;
+}
+
 #btn-joindrefichier{
     color:rgb(201, 19, 55);
     border:none;
@@ -422,6 +717,110 @@ textarea{
 }
 #fields{
     color:rgb(201, 197, 197);
+}
+#region{
+    display: flex;
+}
+.temoignage{
+    display: flex;
+}
+.photo{
+    display: block;
+    margin-left: 300px;
+}
+.tell h1{
+    text-align: center;
+    color: #ce0033;
+}
+.tell prenom{
+    font-weight: bold;
+    font-size: 22px;
+}
+.photo img{
+    border-radius: 100%;
+    margin-left: -10px;
+}
+.tell{
+    margin-left: -200px;
+}
+
+.text{
+    color: darkgrey;
+}
+#candidature{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.container {
+    margin: auto;
+    padding: 2%;
+    
+}
+#candidature .titre5{
+    color: #ce0033;
+    text-align: center;
+    font-weight: bold;
+    margin: 2%;
+}
+#candidature .rows{
+    
+    max-width: 100%;
+}
+#candidature .row{
+    max-width: 100%;
+    margin: 5% 5% 5% 5%;
+    display: flex;
+    background-color: #fff;
+    gap: 9%; /* Espace entre les colonnes */
+    
+   
+}
+.row .col2{
+    max-width: 250px;
+    height: 100px;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #fff;
+    box-shadow:0px 2px 8px ;
+    gap: 20px; /* Espace entre les colonnes */
+    display: flex;
+}
+
+.col2 .image8 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:#ce0033;
+    color: #fff;
+    text-align: center;
+    
+
+}
+.col2 .image9 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:orange;
+    color: #fff;
+    text-align: center;
+   
+
+}
+.col2 .image10{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:orangered;
+    color: #fff;
+    text-align: center;
+   
+   
+
+}
+.col2 .texte8{
+    text-align: center;
+    display: inline-block;
+    
 }
 
 /* styliser la partie des partenaires */
@@ -455,6 +854,9 @@ textarea{
 #aviva{
     height: auto;
     width:110px ;
+}
+#partenariats{
+    margin-bottom: -310px;
 }
 /* styliser le footer */
 footer{
@@ -496,4 +898,43 @@ aside{
 }
 aside span{
     margin-left: 61%;
+}@media screen and (max-width:1118px) {
+    header ul{
+        font-size:10px;
+        text-align: center;
+
+
+    }
+    
 }
+@media  screen and (max-width:940px) {
+    header img {
+        position: relative;
+        width: 70px;
+        height: 10px;
+        margin-left: 100px;
+    }
+    header li{
+        margin-left: none;
+        margin-right: none;
+    }
+    header{
+        margin-left: 200px;
+        text-align: center;
+        margin-left: 200px;
+    }
+}
+
+    
+@media  screen and (max-width:1142px){
+    .missions{
+        font-size: 3px;
+    }
+
+
+
+}
+
+
+
+
